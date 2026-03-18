@@ -2,6 +2,7 @@ CREATE TABLE `banned_words` (
 	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
 	`word` text NOT NULL,
 	`created_at` text NOT NULL
+
 );
 --> statement-breakpoint
 CREATE UNIQUE INDEX `banned_words_word_unique` ON `banned_words` (`word`);--> statement-breakpoint
