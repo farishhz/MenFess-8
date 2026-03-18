@@ -12,4 +12,5 @@ const dbConfig: Config = defineConfig({
   },
 });
 
+
 export default dbConfig;
