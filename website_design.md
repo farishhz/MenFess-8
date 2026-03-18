@@ -1,9 +1,1 @@
-<user_request>buatkan saya website Menfess (mention & confess) bernama "Menfess8RPL" dengan desain modern dan minimalis. Website berfungsi sebagai tempat pengguna mengirimkan pesan menfess secara anonim dengan fitur lengkap termasuk form kirim menfess, timeline dengan filter kategori, sistem like/komentar, admin panel, dark mode, dan fitur menarik seperti Top Fess, Random Fess, Badge Anonim, Mood Meter, dan Night Confess Mode.</user_request>
 
-<todo_list>
-1. Create homepage with hero section "Menfess8RPL", modern gradient design with glass-morphism, navigation with dark mode toggle, and featured sections (Top Fess, Random Fess button). Update src/app/page.tsx as main landing page
-2. Build menfess submission form page with fields (nama panggilan, tujuan mention, pesan, kategori dropdown), rate limiting (3 per 5 min), profanity filter, and success notification with smooth animations
-3. Create timeline page displaying all menfess posts with filter by category (Crush, Curhat, Humor, Random, Motivasi), like/comment/share buttons, anonymous comment system with nested replies, mood meter filter, and responsive card layout
-4. Implement admin panel at /admin/login (username: faris10, password: mioakiyama10) with dashboard showing pending/approved posts, delete functionality, word filter management, device/IP tracking of senders, and post moderation controls
-5. Add special features including Top Fess of The Day section (top 5 by likes), Random Fess generator, anonymous badge system (Anon #XXX), Night Confess Mode (7PM-12AM with stars animation), reaction emojis (👍😂❤️😢🤣), and responsive dark mode throughout entire site
-</todo_list>
